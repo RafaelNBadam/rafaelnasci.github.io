@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    padding: 20px; 
+    resize: both;
+    overflow: auto;
+}
+
+section{
+    margin-top: 800px;
+    margin-left: -1480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posicao{
+display: flex;
+align-items: center;
+justify-items: center;
+}
+
+.Card1{
+    background-color: black;
+    border: 0,1px solid white;
+    box-shadow: 0 0 10px black;
+    width: 1480px;
+    height: 500px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.foto{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-top: 80px;
+}
+.nickname{
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    margin-top:1%;
+    margin-left: 36.5%;  
+}
+
+.apresentacao{
+    color: white;
+    margin-top: -1%;
+    margin-left: 25.5%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.menu{
+    width: 1480px;
+    height: auto;
+    background-color: black;
+    margin-top: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 80px;
+    border: 0,1px solid white;
+    box-shadow: 0 0 10px black;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20%;
+    height: 90px;
+}
+
+#Bio{
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 1480px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 80px;
+    font-size: 180%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+
+.texto{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: large;
+    color: white;
+    width: 500px;
+    margin-top: -380px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+#Habilidades {
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 1480px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 200px;
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+
+.hablist{
+    font-family: 'Ysabeau Infant', sans-serif;
+    list-style: none;
+    color: white;
+    width: 500px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 25%;
+}
+
+#atvproj {
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    background-color: black;
+    height: 500px;
+    width: 1480px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 200px;
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+
+.projs{
+    cursor: pointer;
+    list-style: none;
+    margin-left: 38%;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+.fim{
+    background-color: black;
+    border: 0,1px solid white;
+    box-shadow: 0 0 10px black;
+    margin-left: -1.8%;
+    margin-right: -1.8%;
+    height: 300px;
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: -40px;
+}
+
+.wpp{
+    width: 20px;
+    height: 20px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.redessociais{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+background-color: white;
+margin-left: 20%;
+margin-top: -100px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+    .Card1 {
+        width: 95%;
+        height: 70%;
+        margin-left: 6%;
+    }
+
+    .foto{
+        margin-left: 25%;
+    }
+
+    .nickname{
+        width: 50%;
+        height: 1%;
+        margin-left: 25%;
+        margin-top: auto;
+        display: flex;
+        text-align: center;
+    
+    }
+
+    .apresentacao{
+        margin-top: -10%;
+        text-align: center;
+        margin-left: 22%;
+        width: 200px;
+    }
+
+    .menu{
+        width: 95%;
+        height: 300px;
+        display: flex;
+        margin-left: 6%;
+    }
+
+    .menu2{
+        display: flex;
+        flex-direction:column;
+        margin-top: 65px;
+        margin-left: 40%;
+        gap: 50%;
+    }
+
+    #Bio{
+        width: 95%;
+        height: 650px;
+        margin-left: 6%;
+    }
+
+    .texto{
+        width: 200px;
+        margin-top: -150%;
+        margin-left: 30%;
+    }
+
+    #Habilidades{
+        width: 95%;
+        margin-left: 6%;
+
+    }
+
+    .texto2{
+        font-family: 'Ysabeau Infant', sans-serif;
+        color: white;
+        margin-top: 35%;
+        margin-left: 6%;
+        text-align: center;
+    }
+
+    .hablist{
+        margin-top: 90px;
+        text-align: center;
+        margin-left: -18%;
+    }
+
+    #atvproj{
+        width: 95%;
+        margin-left: 6%;
+        margin-top: 70%;
+        font-size:40px;
+    }
+
+    .texto3{
+        font-family: 'Ysabeau Infant', sans-serif;
+        color: white;
+        margin-top: 40%;
+        text-align: center;
+        width: 300px;
+        margin-left: 15%;
+    }
+
+    .projs{
+        font-family: 'Ysabeau Infant', sans-serif;
+        margin-top: 30%;
+        margin-left: -5%;
+        margin-bottom: 20%;
+        text-align: center;
+
+    }
+
+    .fim{
+        width: 95%;
+        margin-left: 300%;
+        margin-top: 60%
+    }
+}
